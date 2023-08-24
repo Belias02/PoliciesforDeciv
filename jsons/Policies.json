@@ -444,15 +444,19 @@
 		},
 		"uniques": [
 			"[8] units cost no maintenance",
-			"[+33]% Production when constructing [Barracks] buildings [in all cities]",
-			"[+33]% Production when constructing [Military Academy] wonders [in all cities]",
+			"[+50]% Production when constructing [Barracks] buildings [in all cities]",
+			"[+25]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
 			"Only available <before adopting [Constitution]>"
 		],
 		"policies": [
 			{
 				"name": "Militarism",
-				"uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+				"uniques": ["[Gold] cost of purchasing [All] units [-25]%",
+				"[+2 Culture] from every [Barracks]",
+				"[+1 Culture] from every [Armory]",	
+				"[+15]% [Culture] from every [Military Academy]"	
+				],
 				"row": 1,
 				"column": 1
 			},
@@ -472,9 +476,7 @@
 				"uniques": [
 					"[+1 Happiness] from every [Town Hall]",
 					"[+1 Happiness] from every [Listening Post]",
-					"[+3 Happiness, +3 Production] from every [Prison Camp]",
-					"[-3 Food] [in annexed cities]",
-					"[-3 Food] [in puppeted cities]"
+					"[+3 Happiness, +3 Production] from every [Prison Camp]"
 				],
 				"requires": ["Scorched Earth", "Militarism"],
 				"row": 2,
@@ -495,8 +497,8 @@
 				"name": "Spoils of War",
 				"uniques": [
 					"Double quantity of [Weapons] produced",
-					"Earn [33]% of the damage done to [City] units as [Gold]",
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"Earn [25]% of the damage done to [City] units as [Gold]",
+					"Earn [15]% of killed [Military] unit's [Cost] as [Gold]"
 				],
 				"requires": ["Police State"],
 				"row": 3,
@@ -506,6 +508,7 @@
 				"name": "Supremacy Complete",
 				"uniques": [
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+					"[+15]% [Science] from every [Council]",
 					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
