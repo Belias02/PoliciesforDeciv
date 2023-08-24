@@ -1,29 +1,4 @@
-[
-	{
-		"name": "Adaptation",
-		"era": "Decivilized era",
-		"priorities": {
-			"Neutral": 0,
-			"Cultural": 30,
-			"Diplomatic": 0,
-			"Domination": 0,
-			"Scientific": 30
-		},
-		"uniques": [
-			"[+3 Culture] [in capital]",
-			"[-25]% Culture cost of natural border growth [in all cities]"
-		],
-		"policies": [
-			{
-				"name": "Castle Doctrine",
-				"uniques": [
-					"[+25]% City Strength from defensive buildings",
-					"[+50]% Strength for cities <with a garrison> <when attacking>",
-					"[+1 Happiness] [in all cities with a garrison]"
-				],
-				"row": 1,
-				"column": 1
-			},
+[{"name": "Adaptation","era": "Decivilized era","priorities": {"Neutral": 0,"Cultural": 30,"Diplomatic": 0,"Domination": 0,"Scientific": 30},"uniques": ["[+3 Culture [in capital]","[-25]% Culture cost of natural border growth [in all cities]"],"policies": [{"name": "Castle Doctrine","uniques": ["[+50]% Strength for cities <with a garrison> <when attacking>","[+1 Happiness] [in all cities with a garrison]"],"row": 1,"column": 1},
 			{
 				"name": "Centralization",
 				"uniques": [
