@@ -254,7 +254,7 @@
 			{
 				"name": "God Emperor",
 				"uniques": [
-					"[+1 Happines] from every [Shrine]",
+					"[+1 Happiness] from every [Shrine]",
 					"[+1 Happiness] from every [Monastery]",
 					"[+1 Happiness] from every [Megachurch]",
 					"Empire enters golden age"
@@ -276,9 +276,9 @@
 			{
 				"name": "Theocracy Complete",
 				"uniques": [
-					"[Faith] cost of purchasing items in cities [-20]%",
-					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]",
-					"[+2 Gold, +2 Culture, +1 Faith] from every [Oracle]",
+					"[Faith] cost of purchasing items in cities [-15]%",
+					"[+1 Gold, +1 Culture, +1 Faith] from every [Seminary]",
+					"[+1 Gold, +1 Culture, +1 Faith] from every [Oracle]",
 					"Gain a free [Enhancer] belief"
 				]
 			}
@@ -323,7 +323,7 @@
 				"name": "Equipment Upgrades",
 				"uniques": [
 					"[-15]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Science] from every [Armory]",
+					"[+1 Science] from every [Barracks]",
 					"[+10]% [Science] from every [Armory]"
 				],
 				"row": 1,
@@ -378,9 +378,7 @@
 			{
 				"name": "Civil Society",
 				"uniques": [
-					"[-50]% Unhappiness from [Specialists] [in all cities]",
-					"[+1 Happiness] from every [Town Hall]",
-					"[+10]% growth [in all cities]"
+					"[-50]% Unhappiness from [Specialists] [in all cities]"
 				],
 				"row": 1,
 				"column": 2
@@ -388,9 +386,7 @@
 			{
 				"name": "Protected Speech",
 				"uniques": [
-					"[+1 Culture] per [3] population [in all cities]",
-					"[+1 Culture] from every [Town Hall]",
-					"[+10]% growth [in all cities]"
+					"[+1 Culture] per [5] population [in all cities]"
 				],
 				"row": 1,
 				"column": 5
@@ -399,8 +395,7 @@
 				"name": "Public Good",
 				"uniques": [
 					"[+2 Gold] from every [Hospital]",
-					"[-33]% maintenance on road & railroads",
-					"[+20]% growth [in all cities]"
+					"[-25]% maintenance on road & railroads"
 				],
 				"requires": ["Civil Society"],
 				"row": 2,
@@ -409,7 +404,7 @@
 			{
 				"name": "Legislative Process",
 				"uniques": [
-					"[+25]% [Culture] from every [Congress]",
+					"[+15]% [Culture] from every [Congress]",
 					"[+1 Happiness] per [5] population [in all cities]",
 					"[Great Administrator] is earned [25]% faster"
 				],
@@ -420,8 +415,8 @@
 			{
 				"name": "Voting Rights",
 				"uniques": [
-					"[50]% of excess happiness converted to [Culture]",
-					"[-1 Happiness] from every [Work Camp]",
+					"[25]% of excess happiness converted to [Culture]",
+					"[-5 Happiness] from every [Work Camp]",
 					"[-25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <when below [0] Happiness>"
 				],
 				"requires": ["Protected Speech"],
@@ -432,7 +427,6 @@
 				"name": "Constitution Complete",
 				"uniques": [
 					"[+100]% Yield from every [Great Improvement]",
-					"Free Social Policy",
 					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
