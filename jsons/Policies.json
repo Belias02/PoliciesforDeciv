@@ -245,7 +245,7 @@
 			},
 			{
 				"name": "Indulgences",
-				"uniques": ["[+10]% [Gold] from every [Monastery]",
+				"uniques": ["[+15]% [Gold] from every [Monastery]",
 				          "[+1 Gold] from all [Faith] buildings"]
 				"requires": ["Organized Religion"],
 				"row": 2,
@@ -295,8 +295,7 @@
 			"Scientific": 20
 		},
 		"uniques": [
-			"[Great Scientist] is earned [20]% faster",
-			"Science gained from research agreements [+50]%",
+			"[Great Scientist] is earned [25]% faster",
 			"Only available <before adopting [Theocracy]>"
 		],
 		"policies": [
@@ -313,9 +312,9 @@
 			{
 				"name": "Skepticism",
 				"uniques": [
-					"[+1 Happiness, -1 Faith] from every [University]",
-					"[+1 Happiness, -1 Faith] from every [Data Center]",
-					"[+1 Happiness, -1 Faith] from every [Public School]"
+					"[+1 Happiness] from every [University]",
+					"[+1 Happiness] from every [Data Center]",
+					"[+1 Happiness] from every [Public School]"
 				],
 				"row": 1,
 				"column": 3
@@ -323,8 +322,8 @@
 			{
 				"name": "Equipment Upgrades",
 				"uniques": [
-					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Science] from every [Barracks]",
+					"[-15]% Gold cost of upgrading <for [Military] units>",
+					"[+1 Science] from every [Armory]",
 					"[+10]% [Science] from every [Armory]"
 				],
 				"row": 1,
@@ -343,7 +342,7 @@
 			{
 				"name": "Technocracy",
 				"uniques": [
-					"[+25]% [Science] from every [Council]",
+					"[+1 Culture] from all [Science] buildings",
 					"[+1 Gold] from all [Science] buildings"
 				],
 				"requires": ["Skepticism"],
@@ -354,7 +353,8 @@
 				"name": "Rationalism Complete",
 				"uniques": [
 					"[+15]% [Science] <while the empire is happy>",
-					"[2] Free Technologies",
+					"Science gained from research agreements [+50]%",
+					"[1] Free Technologies",
 					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
