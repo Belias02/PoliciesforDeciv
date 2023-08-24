@@ -108,7 +108,6 @@
 				"uniques": [
 					"[+1 Happiness] [in all cities connected to capital]",
 					"[-10]% Unhappiness from [Population] [in all cities]",
-					"[-50]% City-State Influence degradation"
 				],
 				"row": 1,
 				"column": 5
@@ -116,9 +115,6 @@
 			{
 				"name": "Reclaimers",
 				"uniques": [
-					"Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
 					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
 				],
 				"requires": ["Restorers"],
@@ -130,7 +126,7 @@
 				"uniques": [
 					"Units in cities cost no Maintenance",
 					"[+2 Production] [in all cities with a garrison]",
-					"[-33]% maintenance costs <for [Civilian] units>"
+					"[-25]% maintenance costs <for [Civilian] units>"
 				],
 				"requires": ["Representation", "Courier Service"],
 				"row": 2,
