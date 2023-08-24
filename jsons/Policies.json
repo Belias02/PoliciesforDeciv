@@ -107,7 +107,7 @@
 				"name": "Courier Service",
 				"uniques": [
 					"[+1 Happiness] [in all cities connected to capital]",
-					"[-10]% Unhappiness from [Population] [in all cities]",
+					"[-10]% Unhappiness from [Population] [in all cities]"
 				],
 				"row": 1,
 				"column": 5
