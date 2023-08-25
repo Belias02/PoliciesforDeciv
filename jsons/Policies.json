@@ -516,7 +516,7 @@
 	},
 	{
 		"name": "Monopoly",
-		"era": "Neofeudal era",
+		"era": "Rebuilding era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -599,7 +599,7 @@
 	},
 	{
 		"name": "Collectivism",
-		"era": "Neofeudal era",
+		"era": "Rebuilding era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -683,7 +683,7 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+1 Food, +1 Culture] [in all cities]",
+			"[+1 Food] [in all cities]",
 			"Only available <before adopting [Mechanization]>",
 			"Only available <before adopting [Bionics]>"
 		],
@@ -691,7 +691,7 @@
 			{
 				"name": "Emissions Standards",
 				"uniques": [
-					"[+10]% [Food] from every [Coal Plant]",
+					"[+20]% [Food] from every [Coal Plant]",
 					"[-15]% [Production] from every [Coal Plant]",
 					"[+1 Happiness] from every [Recycling Plant]",
 					"[+1 Happiness] from every [Carbon Capture]"
@@ -703,9 +703,9 @@
 				"name": "Physiolatry",
 				"requires": ["Emissions Standards"],
 				"uniques": [
-					"[+1 Faith, +1 Food, -2 Science] from every [Greenhouse]",
-					"[+1 Faith, +1 Food, -2 Science] from every [Protected Area]",
-					"[+1 Faith, +1 Food, -2 Science] from every [Arcology Dome]"
+					"[+1 Food, +1 Science] from every [Greenhouse]",
+					"[+1 Food, +1 Science] from every [Protected Area]",
+					"[+1 Food, +1 Science] from every [Arcology Dome]"
 				],
 				"row": 2,
 				"column": 2
@@ -723,7 +723,7 @@
 				"name": "Harmony",
 				"requires": ["Physiolatry"],
 				"uniques": [
-					"[+1 Happiness, +1 Food, +1 Faith, +1 Culture, -3 Production] <in cities with at least [7] [Population]>",
+					"[+1 Happiness, +1 Food, +1 Culture] <in cities with at least [7] [Population]>",
 					"Resting point for Influence with City-States is increased by [15]",
 					"[-25]% City-State Influence degradation"
 				],
@@ -734,9 +734,7 @@
 				"name": "Conservation",
 				"requires": ["Physiolatry"],
 				"uniques": [
-					"[+1 Gold] from every [Farmer]",
-					"[+1 Gold] from [Fresh water] tiles [in all cities]",
-					"[+1 Gold] from every [Rainwater Purifier]"
+					"[+1 Gold] from [Fresh water] tiles [in all cities]"
 				],
 				"row": 3,
 				"column": 3
@@ -762,7 +760,7 @@
 			"Scientific": 30
 		},
 		"uniques": [
-			"[+1 Production, +1 Science, -1 Culture] [in all cities]",
+			"[+1 Production] [in all cities]",
 			"Only available <before adopting [Naturalism]>",
 			"Only available <before adopting [Bionics]>"
 		],
