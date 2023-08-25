@@ -416,7 +416,7 @@
 				"name": "Voting Rights",
 				"uniques": [
 					"[25]% of excess happiness converted to [Culture]",
-					"[-5 Happiness] from every [Work Camp]",
+					"[-2 Happiness] from every [Work Camp]",
 					"[-25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <when below [0] Happiness>"
 				],
 				"requires": ["Protected Speech"],
