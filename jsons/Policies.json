@@ -362,7 +362,7 @@
 	},
 	{
 		"name": "Constitution",
-		"era": "Neofeudal era",
+		"era": "Rebuilding era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -434,7 +434,7 @@
 	},
 	{
 		"name": "Supremacy",
-		"era": "Neofeudal era",
+		"era": "Rebuilding era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 0,
