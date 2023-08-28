@@ -186,7 +186,7 @@
 				"name": "Military Tradition",
 				"uniques": [
 					"[50]% XP gained from combat <for [Military] units>",
-					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+					"Militaristic City-States grant units [3] times as fast when you are at war with a common nation"
 				],
 				"requires": ["Doctrine", "Discipline"],
 				"row": 2,
@@ -196,7 +196,7 @@
 				"name": "Triumph",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"When defeating a [Military] unit, earn [25] Gold and recruit it <with [25]% chance>"
+					"When defeating a [Barbarian] unit, earn [5] Gold and recruit it <with [15]% chance>"
 				],
 				"requires": ["Doctrine"],
 				"row": 2,
